@@ -1,0 +1,24 @@
+  {
+    "name": "di-demo",
+
+    "dependencies": {
+      "angular": "1.4.2",
+      "di-bower": "1.0.1"
+    },
+
+    "devDependencies": {
+      "karma-read-json": "1.1.0"
+    },
+
+    "overrides": {
+      "angular": {
+        "dependencies": {
+          "jquery": "*"
+        }
+      }
+    },
+
+    "resolutions": {
+      "angular": "1.4.2"
+    }
+  }
